@@ -104,3 +104,19 @@ section h2 {
 #economy .articles article a {
     background-color: #ff9f1a;s
 }
+
+#health {
+    background-color: skyblue;
+}
+
+#health .articles article a {
+    background-color: aquamarine;
+}
+
+#world {
+    background-color: pink;
+}
+
+#world .articles article a {
+    background-color: palevioletred;
+}
