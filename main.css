@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: plum;
+    padding-top: 250px;
+}
+
+header {
+    padding: 16px 0;
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    padding: 8px 0;
+    text-align: center;
+}
+
+input, button {
+    padding: 16px;
+    font-size: 24px;
+}
+
+button {
+    background-color: blue;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+}
+
+ul li {
+    font-size: 24px;
+    padding: 16px;
+    list-style-position: inside;
+    cursor: pointer;
+}
