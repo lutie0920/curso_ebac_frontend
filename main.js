@@ -7,9 +7,12 @@ $('form').on('submit', function(e){
     $(novoItem).appendTo("ul");
 
     $("li").click(function() {
-        $(this).css('text-decoration-line', 'line-through'); 
+        if ($(this).css('text-decoration-line') === 'line-through') {
+            $(this).css('text-decoration-line', 'none'); 
+        } else {
+            $(this).css('text-decoration-line', 'line-through'); 
+        }
     });
 
-    $('#nome-tarefa').val('');
 }) 
 
